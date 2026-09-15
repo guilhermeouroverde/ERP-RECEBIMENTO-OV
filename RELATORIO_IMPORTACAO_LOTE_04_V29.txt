@@ -1,0 +1,28 @@
+OURO VERDE ERP V29 - IMPORTACAO CONTROLADA DO LOTE 04/26
+
+records: 1057
+ok: 1046
+pending: 11
+gross: 244177.51
+net: 243056.65
+deposit: 50883.69
+purchase: 192172.96
+gross_value: 3814238.21
+rural_fund: 59040.62
+net_value: 3754616.0
+ticket_collisions: 4
+created_producers: 1
+removed_previous: 0
+
+CRITERIOS
+- Peso bruto e peso liquido preservados separadamente.
+- Todos os 1.057 registros do lote foram integrados.
+- Registros incompletos foram marcados PENDENTE_REVISAO e aparecem na Auditoria.
+- Tickets ausentes receberam identificador IMP-0426-LINHA.
+- Colisoes globais de ticket receberam sufixo -0426.
+
+COLISOES DE TICKET
+Linha 120: 564 -> 564-0426
+Linha 145: 5701 -> 5701-0426
+Linha 240: 5801 -> 5801-0426
+Linha 287: 5838 -> 5838-0426

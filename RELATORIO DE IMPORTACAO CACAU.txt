@@ -1,0 +1,14 @@
+OURO VERDE ERP V17 - RELATORIO DE IMPORTACAO
+
+Lançamentos importados: 1068
+Produtores criados por não localização: 1
+Tickets repetidos ajustados: 5
+  Linha 35: 5544 -> 5544-2
+  Linha 120: 5640 -> 5640-2
+  Linha 144: 5701 -> 5701-2
+  Linha 239: 5801 -> 5801-2
+  Linha 286: 5838 -> 5838-2
+Anomalias de data encontradas: 1
+  Linha 749: 2023-07-04 | Ticket 6380 | MARLENE RICARDO IZABEL FLORENCIO
+
+Observação: valores foram recalculados conforme as regras atuais do ERP, incluindo FUNRURAL de 1,63%.

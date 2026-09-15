@@ -1,0 +1,1 @@
+{"name":"ouro-verde-erp","version":"13.0.0","private":true,"scripts":{"start":"node server.js"},"engines":{"node":">=18"}}
