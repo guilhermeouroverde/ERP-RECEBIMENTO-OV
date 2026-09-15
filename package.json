@@ -1,1 +1,12 @@
-{"name":"ouro-verde-erp","version":"13.0.0","private":true,"scripts":{"start":"node server.js"},"engines":{"node":">=18"}}
+{
+  "name": "ouro-verde-erp-online-test",
+  "version": "35.2.1",
+  "private": true,
+  "type": "commonjs",
+  "engines": {"node": "22.x"},
+  "scripts": {
+    "start": "node server.js",
+    "build": "node tools/build-public.js",
+    "test": "node --test tests/adapter.test.js"
+  }
+}

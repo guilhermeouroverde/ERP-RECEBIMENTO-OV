@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vercel/
+data/
+backups/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite*
+*.zip
+*.xlsx
+*.csv
+server(*).js

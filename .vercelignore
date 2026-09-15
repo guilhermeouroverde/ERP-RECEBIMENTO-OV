@@ -1,0 +1,10 @@
+data/**
+backups/**
+.env*
+*.zip
+*.db
+*.sqlite*
+*.xlsx
+*.csv
+server(*).js
+tests/**

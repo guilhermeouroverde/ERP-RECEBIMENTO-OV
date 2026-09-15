@@ -1,0 +1,3 @@
+'use strict';
+const {SupabaseStore}=require('../lib/store');const {question,newPassword}=require('./terminal');
+(async()=>{const store=new SupabaseStore();store.assertConfigured();const username=(await question('Usuario: ')).trim().toLowerCase();const user=await store.rpc('ov_login_user',{p_username:username});if(!user)throw new Error('Usuario nao encontrado.');const hash=await newPassword(username);await store.rpc('ov_reset_password',{p_username:username,p_password_hash:hash});console.log('Senha alterada. As sessoes anteriores desse usuario foram encerradas.');})().catch(e=>{console.error(e.message);process.exitCode=1;});
